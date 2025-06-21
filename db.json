@@ -1,24 +1,34 @@
 {
-    "posts":[
-        {
-            "id": 1,
-            "title": "My First Blog Post",
-            "content": "Today I learned how to use fetch() in Javascript. It was awesome!",
-            "author": "Dan"
-        },
-        {
-            "id": 2,
-            "title": "Learning HTML & CSS",
-            "content":"HTML gives structures.CSS makes it pretty.Now I understand the basics!",
-            "author":"Dan"
-
-        },
-        {
-            "id": 3,
-            "title": "What I Think About Javascript",
-            "content":"At first it was hard, but now am slowly improving!",
-            "author":"Dan"
-
-        }
-    ]
+  "posts": [
+    {
+      "id": 1,
+      "title": "My First Blog Post",
+      "content": "Today I learned how to use fetch() in Javascript. It was awesome!",
+      "author": "Dan"
+    },
+    {
+      "id": 2,
+      "title": "Learning HTML & CSS",
+      "content": "HTML gives structures.CSS makes it pretty.Now I understand the basics!",
+      "author": "Dan"
+    },
+    {
+      "id": 3,
+      "title": "What I Think About Javascript",
+      "content": "At first it was hard, but now am slowly improving!",
+      "author": "Dan"
+    },
+    {
+      "title": "My Dream",
+      "content": "Its about a dream that almost came true",
+      "author": "Bradley",
+      "id": 4
+    },
+    {
+      "title": "G Wagon",
+      "content": "The coolest car",
+      "author": "steve",
+      "id": 5
+    }
+  ]
 }
