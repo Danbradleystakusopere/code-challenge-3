@@ -17,6 +17,12 @@
       "title": "What I Think About Javascript",
       "content": "At first it was hard, but now am slowly improving!",
       "author": "Dan"
+    },
+    {
+      "title": "My Coding journey",
+      "content": "I used to want to know how to code until i joined moringa. And now am still continuing with the journey of coding.",
+      "author": "Dan",
+      "id": 4
     }
   ]
 }
