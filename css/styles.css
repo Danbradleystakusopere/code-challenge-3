@@ -1,44 +1,53 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Verdana, sans-serif;
+  margin: 20px;
   background-color: white;
   color: black;
-  margin: 20px;
 }
 
-#post-list {
-  width: 30%;
-  float: left;
-  padding-right: 20px;
-  border-right: 2px solid lightgray;
+#post-list, #post-detail {
+  width: 48%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 15px;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  background-color: white;
+  box-shadow: 1px 1px 5px lightgray;
 }
 
-#post-detail {
-  width: 65%;
-  float: left;
-  padding-left: 20px;
-}
-
-h2 {
-  color: blue;
+#post-list h3, #post-detail h3 {
+  color: navy;
 }
 
 form {
   margin-top: 30px;
-  background-color: lightblue;
-  padding: 15px;
-  border-radius: 5px;
+  padding: 20px;
+  background-color: aliceblue;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  box-shadow: 1px 1px 5px lightgray;
+}
+
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
 }
 
 input, textarea {
   width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
+  padding: 8px;
+  margin-top: 4px;
   border: 1px solid gray;
   border-radius: 4px;
+  background-color: white;
 }
 
 button {
-  background-color: blue;
+  margin-top: 15px;
+  background-color: darkblue;
   color: white;
   padding: 10px 15px;
   border: none;
@@ -47,5 +56,5 @@ button {
 }
 
 button:hover {
-  background-color: navy;
+  background-color: blue;
 }
