@@ -63,3 +63,17 @@ function addNewPostListener() {
       .catch((err) => console.error("Error creating post:", err));
   });
 }
+function handlePostClick(postId) {
+  fetch(`http://localhost:3000/posts/${postId}`)
+    .then((res) => res.json())
+    .then((post) => {
+      const detail = document.getElementById("post-detail");
+      detail.innerHTML = `
+        <h2>${post.title}</h2>
+        <p>${post.content}</p>
+        <p><strong>Author:</strong> ${post.author}</p>
+      `;
+    })
+    .catch((err) => console.error("Error loading post detail:", err));
+}
+
